@@ -1,0 +1,79 @@
+.main-content {
+  max-width: 984px;
+  margin: 92px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content__title {
+  font-family: "Inter-Black", sans-serif;
+  max-width: 830px;
+  font-size: 54px;
+  line-height: 1.1;
+}
+
+.main-content__paragraph-quote-left {
+  max-width: 738px;
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 40px 0 10px;
+}
+
+.main-content__paragraph-quote-author-right {
+  max-width: 732px;
+  font-size: 24px;
+  line-height: 1.4;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content__paragraph-text-small {
+  max-width: 722px;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 544px) and (max-width: 1024px) {
+  .main-content {
+    max-width: 720px;
+    margin: 90px 24px 88px;
+  }
+
+  .main-content__title {
+    max-width: 707px;
+    font-size: 45px;
+    line-height: 0.9;
+  }
+
+  .main-content__paragraph-quote-author-right {
+    max-width: 720px;
+  }
+
+  .main-content__paragraph-text-small {
+    max-width: 720px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 543px) {
+  .main-content {
+    max-width: 288px;
+    margin: 64px 16px;
+  }
+
+  .main-content__title {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+
+  .main-content__paragraph-quote-left {
+    max-width: 288px;
+    line-height: 1.25;
+  }
+
+  .main-content__paragraph-quote-author-right {
+    max-width: 288px;
+  }
+}
