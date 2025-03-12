@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-  height: 100%;
 }
 
 .footer__copyright {
