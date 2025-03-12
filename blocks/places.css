@@ -109,6 +109,7 @@
 
   .places__content {
     max-width: 720px;
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 90px 1fr repeat(2, 50px);
   }
 
