@@ -113,13 +113,22 @@
     grid-template-rows: 90px 1fr repeat(2, 50px);
   }
 
-  .places__image {
-    max-width: 460px;
-    max-height: 460px;
-  }
-
   .places__header {
     max-width: 340px;
     font-size: 42px;
+    grid-column: 1 / 6;
+    grid-row: 1;
+  }
+
+  .places__image {
+    max-width: 460px;
+    max-height: 460px;
+    grid-column: 1 / 5;
+    grid-row: 2;
+  }
+
+  .places__frame {
+    grid-column: 1 / 4;
+    grid-row: 3;
   }
 }
