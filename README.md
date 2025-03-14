@@ -11,4 +11,4 @@ se implemento la metodologia BEM para la estructura de archivos anidados asi com
 
 las consultas de medios estan realizadas deacuerdo a las especificasiónes del brief.
 
-enlace a github: git@github.com:EduardoCrCo/web_project_homeland.git
+enlace a github: https://eduardocrco.github.io/web_project_homeland/
